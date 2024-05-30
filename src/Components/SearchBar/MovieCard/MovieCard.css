@@ -1,0 +1,19 @@
+.card {
+    transition: all 0.25s ease-in-out;
+    overflow: hidden;
+    box-shadow: 5px 5px 0px rgb(99, 99, 99);
+    cursor: pointer;
+    &:hover {
+        background-color: white;
+        box-shadow: 10px 10px 0px rgb(63, 63, 63);
+        .image{
+            transform: scale(1.075);
+            overflow: hidden;
+            
+        }
+    }
+}
+
+.image{
+    transition: all 0.3s ease-in-out;
+}

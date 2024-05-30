@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import { Divider } from 'antd';
 import './App.css';
+import SearchBar from './Components/SearchBar/searchBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Divider style={{fontSize:"2.5rem",fontWeight:"300",borderColor:"black"}}>MOVIES</Divider>
+      <SearchBar />
     </div>
   );
 }
