@@ -31,7 +31,7 @@ const SearchBar = () => {
         if (selectedOption && text) {
             const response = await fetchMovie({ selectedOption, text });
             setData(response)
-            console.log("response", response)
+            // console.log("response", response)
         }
         else {
             alert("Invalid input")
